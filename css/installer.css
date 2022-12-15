@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*   \\(^o^)//   */
+
+/*Début ajustement du contenu, polices d'écriture et taille du texte*/
+#contenu {
+    text-align: center;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titre {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #344D59;
+    padding-top: 10px;
+    margin: 3%;
+    text-align: center;
+}
+
+#contenu h4 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 10px;
+}
+
+#contenu h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#pad {
+    margin-top: 200px;
+}
+
+/*Fin ajustement du contenu, polices d'écriture et taille du texte*/
+
+
+
+/*Début margin du carousel*/
+.slide {
+    margin-bottom: 40px;
+}
+
+/*Fin margin du carousel*/
+
+
+
+/*Début card : police du texte et couleur*/
+.card-body p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 50px 50px;
+    text-align: center;
+    text-align: justify;
+}
+
+.cartegueret {
+    margin-top: 40px;
+    background-color: #F0F0F0;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.rounded-start {
+    background-color: #F0F0F0;
+}
+
+.installez {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.card-title {
+    color: #487570;
+}
+
+.card {
+    background-color: #F0F0F0;
+}
+
+/*Fin card : police d'écriture et couleur*/
+
+
+
+
+/*Début accordéon : polices d'écritures et mise en forme*/
+.accordion-button {
+    background-color: #D5DAD4;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #487570;
+}
+
+.accordion {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.accordion-body p {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18PX;
+    /* text-align: center; */
+    text-align: justify;
+}
+
+.accordion-body h3 {
+    background-color: white;
+    font-family: 'Lora', serif;
+    font-size: 23PX;
+    color: #559798;
+}
+
+.accordion-item h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+.carteinterractive {
+    width: 60%;
+}
+
+/*Fin accordéon : polices d'écritures et mise en forme*/
+
+
+
+/*Début card emplois : reponsive et padding*/
+@media screen and (max-width: 1200px) {
+    .col p {
+        font-size: 14px;
+        margin: 10%;
+    }
+}
+
+.emplois {
+    margin-bottom: 70px;
+}
+
+/*Fin card emplois : reponsive et padding*/
+
+
+
+/* Début petite enfance : centrer*/
+.text-center {
+    border: none;
+}
+
+/*Fin petite enfance : centrer */

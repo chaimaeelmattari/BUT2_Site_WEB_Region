@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+/*********************************Début navbar *******************************************/
+#navbar {
+  background-color: transparent !important;
+  z-index: 9999;
+}
+
+.dropdown a {
+  color: #F0F0F0 !important;
+  text-decoration: none !important;
+  font-family: 'Abyssinica SIL', serif !important;
+  font-size: 23px !important;
+  padding: 0 15px;
+}
+
+.btnMaison {
+  border: 0 !important;
+  color: white !important;
+  background-color: transparent !important;
+  font-size: 2rem !important;
+  padding: 0 15px !important;
+  border-radius: 20px !important;
+}
+
+/****************************Fin navbar ********************************************************************/
+
+/*****************************************Contenu début *************************************************/
+.container-fluid {
+  padding: 0 0;
+}
+
+/*****************************************Contenu fin *************************************************/
+
+/***************************************recherche début  ***************************************/
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  height: 60px;
+  width: 50%;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 0 auto;
+
+
+}
+
+.search-box>.search-txt {
+  width: 240px;
+  padding: 0px 6px;
+  align-items: center;
+}
+
+.search-box>.search-btn {
+  background: white;
+  color: #487570;
+}
+
+.search-btn {
+  color: #eeeeee;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 5%;
+}
+
+.search-btn>i {
+  font-size: 20px;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/***************************************recherche fin  ***************************************/
+
+/***************************************carte début  ******************************************/
+.card-title {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 200px;
+}
+
+.card-img {
+  height: 700px;
+  width: 100%;
+
+}
+
+.text-white {
+  width: 100%;
+}
+
+/******************************** Carte fin*************************************************/
+
+/************************************Responsive début *********************************************/
+@media all and (max-width: 1000px) {
+  .card-title {
+    font-size: 50px;
+    margin-top: 200px;
+  }
+
+}
+
+/***********************************************Responsive fin ******************************************/

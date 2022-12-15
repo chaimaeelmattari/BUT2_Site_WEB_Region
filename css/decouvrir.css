@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); 
+
+
+ /* font-family: 'Abyssinica SIL', serif;   <-- TEXTE SOUS MENU
+font-family: 'Alkalami', serif;             <-- MENU ET PIED DE PAGE
+font-family: 'Lora', serif;                 <-- SOUS TITRE
+font-family: 'Playfair Display', serif;      <-- TITRE                  */  
+/* font-family: 'Poppins', sans-serif;       <-- TEXTE   
+
+/*************************************DEBUT CSS Commun a la div "contenu****************************************/
+#contenu{           /*encadrement de la div*/
+    text-align : center;
+    /* padding: 10px; */
+}
+
+#contenu h2 {       /*style de la police des h2*/           
+    font-family: 'Playfair Display', serif;
+    font-size:40px;
+    color: #344D59;
+    padding-top: 10px;
+}
+
+#contenu h3{         /*style de la police des h3*/    
+    padding-top : 20px;
+    font-family: 'Playfair Display', serif;
+    font-size:32px;
+}
+
+#titre {        /*style de la police des h4*/
+    font-family: 'Lora', serif;  
+    font-size:25px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 10px;
+    color:#137C8B;
+}
+
+#contenu p {        /*style de la police des p*/
+    font-family: 'Poppins', sans-serif;
+    color:#26474E;
+    font-size: 18px;
+    margin: 10px 10px;
+    text-align: center;
+    text-align: justify; 
+}
+
+#contenu img {      /*taille de toutes les images*/
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+ }
+ /*************************************FIN CSS Commun a la div "contenu****************************************/
+
+
+
+
+
+/***************************************DEBUT Sport************************************************************/
+
+#sport {    /*encadrement de la div*/
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    padding: 5px;
+    margin : 5%;
+}
+
+.sport1{ /*encadrement de la div*/
+    margin : 2%;
+    display: flex;
+}
+.sport1 h4{ /*taille sous-titre*/
+    font-family: 'Lora', serif;  
+    font-size:10px;
+}
+
+.sport2{ /*encadrement de la div*/
+    margin : 2%;
+    display: flex;
+    margin-bottom:20px;
+}
+
+.sport2 h4{ /*taille sous-titre*/
+    font-family: 'Lora', serif;  
+    font-size:10px;
+}
+
+.s1droite { /*taille de l'image*/
+    width: 500px;
+}
+
+.s1gauche { /*taille de la div texte*/		
+    flex: 50%;
+    padding: 20px;
+    margin: 10px;
+    background-color:#F0F0F0;
+    color:black;
+ }
+
+ .s2gauche {    /*taille de l'image*/
+    width: 500px;
+}
+
+ .s2droite {	/*taille de la div texte*/	
+    flex: 50%;
+    padding: 20px;
+    margin: 10px;
+    background-color:#F0F0F0;
+    color:black;
+ }
+/***************************************FIN Sport************************************************************/
+
+
+
+
+/***************************************DEBUT Nature************************************************************/
+
+#nature {   /*encadrement de la div*/
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    margin : 5%;
+}
+
+#nature .card { /*style des divs groupés dans "cards"*/
+    /* background-color: rgb(178, 201, 241); */
+    background-color: #F0F0F0;
+    border: none;
+    
+    color: black;
+    padding: 1rem;
+  }
+
+ #nature .cards {   /*style de la div "cards", ses divs sont placer en grille*/
+    padding: 0 auto;
+    padding: 10px;
+    display: grid;
+    gap: 1rem;
+  }
+
+/***************************************FIN Nature************************************************************/
+
+
+
+
+
+/***************************************DEBUT Culture************************************************************/
+#culture {  /*encadrement de la div*/
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    margin : 5%;
+}
+
+.c1droite { /*center de la div avec l'image*/
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.c1gauche { /*encadrement de la div avec le texte*/
+    column-width: 500px;
+    padding: 20px;
+    margin: 45px;
+}
+
+.c2droite { /*encadrement de la div avec le texte*/
+    padding-bottom: 20px;
+    margin: 45px;
+}
+
+.c2gauche {     /*la div avec l'image se situe en haut a gauche */
+    float: left;
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+/***************************************FIN Culture************************************************************/
+
+
+
+
+/***************************************DEBUT Carte************************************************************/
+#carte {    /*encadrement de la div*/
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    margin : 5%;
+}
+
+.imagecarte {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+/***************************************Fin Carte************************************************************/
+
+
+
+
+/***************************************DEBUT Responsive************************************************************/
+
+@media screen and (max-width:1200px){
+    /*lorsque la taille de l'écran diminue : les div se placent en colonne*/
+    .sport1 {
+        flex-wrap:wrap;
+        align-items:center;
+        padding:auto;
+    }
+    .sport2 {
+        flex-wrap:wrap;
+        align-items:center;
+        padding:auto;
+    }
+
+    .culture .c2gauche{
+        flex-wrap:wrap;
+        align-items:center;
+        padding:auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /*lorsque la taille de l'écran diminue : les div du grid se placent en colonne*/
+    #nature .cards { 
+        grid-template-columns: repeat(2, 1fr); 
+        flex-wrap:wrap;
+        align-items:center;
+        padding:auto;
+    }
+}
+
+/***************************************FIN Responsive************************************************************/

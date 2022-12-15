@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* font-family: 'Abyssinica SIL', serif;   <-- TEXTE SOUS MENU
+font-family: 'Alkalami', serif;             <-- MENU ET PIED DE PAGE
+font-family: 'Lora', serif;                 <-- SOUS TITRE
+font-family: 'Playfair Display', serif;      <-- TITRE                  */
+/* font-family: 'Poppins', sans-serif;        <-- TEXTE                          */
+
+
+/**********************************Début contenu ****************************************/
+.row p {
+    /*Fond du texte*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #F0F0F0;
+}
+
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/***********************************Fin contenu   *************************************/
+
+/**************************************Début carte ************************************************/
+
+.row .card h5 {
+    font-size: 30px;
+    margin-top: 5%;
+    font-family: 'Playfair Display', serif;
+    color: #487570;
+
+}
+.ROW .card{
+    background-color: #F0F0F0;
+    border: none;
+}
+
+.row .card-body {
+    background-color: #F0F0F0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.row .card-header {
+    border: NONE;
+    background-color: transparent;
+}
+
+/***************************************Fin carte***************************************/
+
+/********************************************************Début image *********************************/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img {
+    height: 700px;
+    width: 2000px;
+}
+
+/********************************************************Fin image *******************************************/

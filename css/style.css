@@ -1,0 +1,348 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+ /* font-family: 'Abyssinica SIL', serif;   <-- TEXTE SOUS MENU
+font-family: 'Alkalami', serif;             <-- MENU ET PIED DE PAGE
+font-family: 'Lora', serif;                 <-- SOUS TITRE
+font-family: 'Playfair Display', serif;      <-- TITRE                  */
+ /* font-family: 'Poppins', sans-serif;      <-- TEXTE                          */
+
+
+ /***************************************s***********************************Css du commun du site debut **************************************************************************/
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html {
+     height: 100%;
+ }
+
+ header {
+     height: 70% !important;
+     width: 100% !important;
+
+ }
+
+
+ body {
+     font-size: 25px;
+     transition: 5s;
+     margin: 0 !important;
+     background-color: white;
+
+ }
+
+
+ /*************************************************************************Css du commun du site fin *******************************************************************************/
+
+
+
+
+ /****************************************************************************Css du Menu Début *************************************************************************************/
+ #navbar {
+     width: 100% !important;
+     height: 30h !important;
+     top: 0 !important;
+     background-color: rgba(0, 0, 0, 0.6) !important;
+     color: black !important;
+     padding: 0 4rem !important;
+     justify-content: space-between !important;
+     align-items: center !important;
+     display: flex !important;
+     position: fixed !important;
+     z-index: 9999;
+
+ }
+
+ .logo {
+     font-size: 1rem !important;
+ }
+
+ .toggle {
+     display: none !important;
+     z-index: 9999;
+ }
+
+ .nav-tabs a {
+     color: white !important;
+     text-decoration: none !important;
+     font-family: 'Abyssinica SIL', serif !important;
+     font-size: 23px !important;
+     padding: 0 5px;
+
+ }
+
+ .btnMaison {
+     border: 0 !important;
+     color: white !important;
+     background-color: transparent !important;
+     font-size: 2rem !important;
+     padding: 0 15px !important;
+     border-radius: 20px !important;
+ }
+
+ .dropdown a {
+     color: #F0F0F0 !important;
+     text-decoration: none !important;
+     font-family: 'Abyssinica SIL', serif !important;
+     font-size: 23px !important;
+     padding: 0 15px;
+ }
+
+ .dropdown-menu {
+     background-color: rgba(0, 0, 0, 0.6) !important;
+ }
+
+
+ /****************************************************************************Css du Menu FIN *************************************************************************************/
+
+
+
+ /**************************************************************************Css footer debut **************************************************************************/
+
+ .container-footer {
+     max-width: 1170px;
+     margin: auto;
+
+ }
+
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+
+ footer {
+     background-color: black;
+     margin: 0;
+     ;
+     padding: 0;
+     box-sizing: border-box;
+     color: white;
+ }
+
+ .footer-div {
+     width: 25%;
+     padding: 0 15px;
+     position: relative;
+     margin-bottom: 20px;
+ }
+
+ .footer h4 {
+     color: #487570;
+     align-items: center;
+     font-size: 20px;
+
+ }
+
+ .footer h1 {
+     color: #487570;
+     font-size: 40px;
+     text-align: center;
+     margin-bottom: 30px;
+     font-family: 'Playfair Display', serif;
+     font-size: 45px;
+ }
+
+
+ .footer-div h4 {
+     font-size: 18px;
+     color: #ffffff;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     position: relative;
+ }
+
+ .footer-div h4::before {
+     content: '';
+     position: absolute;
+     left: 43%;
+     bottom: -10px;
+     background-color: #487570;
+     height: 2px;
+     box-sizing: border-box;
+     width: 50px;
+ }
+
+ .footer-div ul li:not(:last-child) {
+     margin-bottom: 10px;
+ }
+
+ .footer-div ul li a {
+     font-size: 16px;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     font-weight: 300;
+     color: #bbbbbb;
+     display: block;
+     transition: all 0.3s ease;
+ }
+
+ .footer-div ul li a:hover {
+     color: #ffffff;
+     padding-left: 8px;
+ }
+
+ .footer-div .logos-medias a {
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(255, 255, 255, 0.2);
+     margin: 0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: #ffffff;
+     transition: all 0.5s ease;
+ }
+
+ .footer-div .logos-medias a:hover {
+     color: #24262b;
+     background-color: #ffffff;
+ }
+
+
+
+ /**************************************************************************Css footer fin **************************************************************************/
+
+
+
+ /***************************************************************************** Responsive début ***************************************************************************/
+ @media all and (max-width: 1200px) {
+
+     /**************************************************************************Responsive  commun du site debut **************************************************************************/
+     header {
+         background: transparent !important;
+     }
+
+     .open #image {
+         display: none !important;
+         z-index: 9999 !important;
+
+     }
+
+     #image {
+         width: 1200px !important;
+         z-index: 9999 !important;
+     }
+
+
+     /**************************************************************************Responsive  commun du site fin **************************************************************************/
+
+     /**************************************************************************Responsive  menu debut **************************************************************************/
+     .toggle {
+         display: block !important;
+         font-size: 2rem !important;
+         cursor: pointer !important;
+         position: relative !important;
+         z-index: 20 !important;
+
+     }
+
+     .ouvrir {
+         display: block !important;
+         color: white !important;
+     }
+
+     .fermer {
+         display: none !important;
+         color: white !important;
+
+
+     }
+
+     .open .ouvrir {
+         display: none !important;
+     }
+
+     .open .fermer {
+         display: block !important;
+     }
+
+     .nav-tabs {
+         position: absolute !important;
+         top: 0 !important;
+         left: 0 !important;
+         width: 100% !important;
+         height: 100vh !important;
+         background: black !important;
+         flex-direction: column !important;
+         padding: 2rem !important;
+         justify-content: space-around !important;
+         transform: translateX(-100%) !important;
+         transition: transform 0s !important;
+     }
+
+     .nav-tabs li a {
+         font-size: 2rem !important;
+         text-align: center;
+
+     }
+
+
+     .nav-tabs li a:hover {
+         background-color: black;
+
+     }
+
+     .dropdown-menu {
+         margin-left: 30% !important;
+         background-color: rgba(125, 145, 143, 0.6) !important;
+     }
+
+
+
+
+     .btnMaison {
+         font-size: 2rem !important;
+     }
+
+     .open .nav-tabs {
+         transform: translateX(0) !important;
+
+
+     }
+
+     /**************************************************************************Responsive  menu fin **************************************************************************/
+
+     /**************************************************************************Responsive  footer debut **************************************************************************/
+
+     .footer-div {
+         width: 50% !important;
+         margin-bottom: 30px !important;
+     }
+
+     .open .footer {
+         display: none !important;
+     }
+
+     /**************************************************************************Responsive  footer fin **************************************************************************/
+
+     /**************************************************************************Responsive  contenu debut **************************************************************************/
+
+     .open #contenu {
+         display: none !important;
+     }
+
+     .open #titre {
+         display: none !important;
+     }
+
+     .open .search-box {
+         display: none !important;
+     }
+ }
+
+ /**************************************************************************Responsive  contenu fin **************************************************************************/
+
+ /**************************************************************************Responsive  fin**************************************************************************/

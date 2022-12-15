@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* font-family: 'Abyssinica SIL', serif;   <-- TEXTE SOUS MENU
+font-family: 'Alkalami', serif;             <-- MENU ET PIED DE PAGE
+font-family: 'Lora', serif;                 <-- SOUS TITRE
+font-family: 'Playfair Display', serif;      <-- TITRE                  */
+/* font-family: 'Poppins', sans-serif;      <-- TEXTE                          */
+
+
+/*****************************************Début contenu ***************/
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #344D59;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.row {
+    margin-top: 1%;
+
+}
+
+.row .f p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-align: justify;
+    margin: 30px 45px;
+    color: 26474E;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: #137C8B;
+    text-align: center;
+}
+
+.row .f {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.row .li {
+    text-align: center;
+}
+
+.f {
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-align: justify;
+    color: #26474E;
+
+}
+
+.y .para {
+    background-color: #F0F0F0;
+    text-align: center;
+    text-align: justify;
+    margin: 30px 45px;
+}
+
+.y .para2 {
+    text-align: center;
+    text-align: justify;
+    margin: 30px 45px;
+}
+
+h5 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #36494E;
+    text-align: justify;
+
+
+}
+
+
+/*****************************************fIN contenu ***************/
+
+/*****************************************Début CONTACT ***************/
+
+.contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.contact-body {
+    background-color: #F0F0F0;
+}
+
+.card-body a {
+    color: #26474E;
+    text-decoration: none;
+}
+
+/*****************************************Fin contact ***************/
+
+/*****************************************Début carte ***************/
+.card-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18PX;
+    text-align: center;
+    background-color: #F0F0F0;
+
+}
+
+
+
+.card-header {
+    font-family: 'Playfair Display', serif;
+    color: #487570;
+    background-color: #F0F0F0;
+}
+
+.z {
+    border-radius: 2px;
+    border: none;
+}
+
+.y {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #e5e7e6;
+}
+
+
+.card-body {
+    background-color: #F0F0F0;
+}
+
+
+
+/*****************************************fin carte ***************/
+
+
+/*****************************************Début accordéon ***************/
+.accordion {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+}
+
+.accordion-body {
+    background-color: white;
+}
+
+.accordion-body p {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18PX;
+    color: #26474E;
+}
+
+.accordion-body h3 {
+    background-color: white;
+    font-family: 'Lora', serif;
+    font-size: 23PX;
+    color: #137C8B;
+}
+
+.accordion-item h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+
+
+.accordion-button {
+    background-color: #F0F0F0;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #137C8B;
+}
+
+/*****************************************fin accordéon ***************/
+
+/*****************************************Début image ***************/
+.card-img {
+    height: 700px;
+    width: 2000px;
+}
+
+
+.card-img-top,
+.card-img-bottom {
+    height: 450px;
+    width: 100%;
+}
+
+/**********************************Fin image  *********************/
+
+/**********************************Début environnement  *********************/
+.environnement-ville h4 {
+    text-align: center;
+}
+
+
+.environnement-ville {
+    margin-top: 10%;
+}
+
+.float-start {
+    background: none;
+    margin: 2%;
+}
+
+.float-end {
+    background: none;
+    margin: 2%;
+}
+
+.environnement-ville h3 {
+    margin-left: 5%;
+    color: #003C57;
+
+}
+
+.environnement-ville p {
+    margin-left: 2%;
+    margin-top: 2%;
+    color: #26474E;
+
+}
+
+.environnement-ville h5 {
+    margin-left: 2%;
+    margin-top: 2%;
+    color: 36494E;
+}
+
+/**********************************Fin environnement ******************************************/
+
+/*****************************Début responsive *******************************************/
+@media all and (max-width : 900px) {
+    .ima {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+}
+
+/*******************************Fin responsive ***************************************/

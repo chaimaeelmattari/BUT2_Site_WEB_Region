@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/installer.css">
+    <link rel="stylesheet" href="../css/footerTest.css">
+    </script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>S'installer</title>
+</head>
+
+
+
+<header>
+    <!---------------------------------------------------------------------------------DEBUT MENU--------------------------------------------------------------------------------->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="../img/logo3.png">
+        </div>
+        <div class="toggle">
+            <i class="fa-solid fa-bars ouvrir"></i>
+            <i class="fa-regular fa-circle-xmark fermer"></i>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html"><button onclick="window.location.href='home.html';"
+                        class="btnMaison"><i class="fa-solid fa-house"></i></button></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="maville.html" role="button"
+                    aria-expanded="false">Ma ville</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="maville.html#politique">Politique de la ville</a></li>
+                    <li><a class="dropdown-item" href="maville.html#environnement">Environnement</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="decouvrir.html" role="button"
+                    aria-expanded="false">Découvrir</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="decouvrir.html#sport">Sports</a></li>
+                    <li><a class="dropdown-item" href="decouvrir.html#nature"> Nature</a></li>
+                    <li><a class="dropdown-item" href="decouvrir.html#culture"> Culture</a></li>
+                    <li><a class="dropdown-item" href="decouvrir.html#carte"> Carte Touristique</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="installer.html" role="button"
+                    aria-expanded="false">S'installer</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="installer.html#bienvenue">Bienvenue</a></li>
+                    <li><a class="dropdown-item" href="installer.html#transports"> Transports publics</a></li>
+                    <li><a class="dropdown-item" href="installer.html#enfance"> Petite Enfance</a></li>
+                    <li><a class="dropdown-item" href="installer.html#emplois">Offres d'emplois</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!---------------------------------------------------------------------------------FIN MENU--------------------------------------------------------------------------------->
+</header>
+
+
+
+<body>
+
+    <!---------------------------------------------------------------------------------DEBUT CONTENU---------------------------------------------------------------------------->
+
+    <!---------------------------------------------------------------------------------DEBUT CAROUSEL---------------------------------------------------------------------------->
+    <div id="bienvenue">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/bienvenue.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BIENVENUE !</h5>
+                        <p>Et vous, quand allez vous sauter le pas ?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/bus.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>TRANSPORTS PUBLICS</h5>
+                        <p>Soyez mobiles !</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/enfant.jpg" class="d-block w-100 enfanceimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PETITE ENFANCE</h5>
+                        <p>On accueil les tout-petits !</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!---------------------------------------------------------------------------------FIN CAROUSEL---------------------------------------------------------------------------->
+
+
+
+    <div id="contenu">
+
+        <!----------------------------------------------------------------------------DEBUT CARD INSTALLEZ VOUS---------------------------------------------------------------------------->
+
+        <div class="card">
+            <h2 class="titre">INSTALLEZ VOUS DANS NOTRE COMMUNE !</h2>
+            <div class="card-body">
+                <h5 class="card-title">Bienvenue en terre creusoise dans un territoire de ville et de campagne</h5>
+                <p class="card-text">Au coeur de la France, en Massif central, en Nouvelle-Aquitaine, en
+                    Limousin, en Creuse, entre Marche
+                    et Berry…
+                    <br>A 1h de Montluçon et Limoges, 3h30 de Paris, 3h de l’océan...
+                    <br>C’est ici que vit le territoire du Grand Guéret et des Portes de la Creuse en Marche !
+                    <br>Autour des vallées de la Creuse, de la Petite Creuse, de la Gartempe et des Monts de
+                    Guéret.
+                    <br>Les prés d’élevage, les cultures cloisonnées de haies bocagères, les forêts de feuillus
+                    telle la
+                    Forêt de Chabrières, les bourgs ruraux et villages éparses ou encore la ville de Guéret…
+                    telle est
+                    la mosaïque de paysages qui caractérise ce territoire qui a su garder sa dimension humaine!
+                    <br>Portées par la politique d’Accueil et d’Attractivité de la Communauté d’Agglomération du
+                    Grand
+                    Guéret et de la Communauté de communes Portes de la Creuse en Marche, C’est ici que se
+                    mobilisent 41
+                    communes et tout un réseau de référents accueil pour vous accueillir!
+                    <br>L’objectif : maintenir et faire venir de nouvelles populations, aider les nouveaux
+                    habitants à
+                    s’installer comme à s’intégrer localement et donner une image positive à tous pour un
+                    territoire
+                    vivant !
+                    <br>Alors bienvenue !
+                </p>
+                <p class="card-text"><small class="text-muted">Chabatz d’entrar (« Finissez d’entrer »)</small></p>
+            </div>
+            <img src="../img/cartegueret.png" class="card-img-bottom installez" alt="...">
+        </div>
+
+
+        <!-------------------------------------------------------------------------------FIN CARD INSTALLEZ VOUS---------------------------------------------------------------------------->
+
+
+
+        <!---------------------------------------------------------------------------------DEBUT ACCORDEON---------------------------------------------------------------------------->
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Et si vous adoptiez le rythme creusois...
+                        <br>... en imaginant votre avenir ici !
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><strong>Pour faliciter votre installation sur le territoire, découvrez nos guides d'accueil
+                                à télécharger ici :</strong>
+                            <br>#1 - Les Portes de la Creuse
+                            <br>#2 - Le Grand Guéret
+                            <br># 3 - Votre commune (demandez à votre mairie)
+                            <br>Vous y trouverez des renseignements pratiques concernant la vie quotidienne sur le
+                            territoire (offre de services, éducative, sportive, associative, culturelle...).
+                            <br>Vous avez par ailleurs besoin :
+                            <br>de réponses et de renseignements pratiques tant sur votre projet de vie ou projet
+                            professionnel; d'être aiguillé vers les interlocuteurs de l'accompagnement, d'échanger sur
+                            l'offre du territoire...
+                            <br><br><strong>Contactez ou rendez-vous au sein des 2 Tiers-Lieux du territoire :</strong>
+                            <br><br>La Quincaillerie - 22, avenue Charles de Gaulle - 23000 GUERET - Tél. : 05 55 41 45
+                            13 -
+                            Adresse mail : <a href="mailto">contact@laquincaillerie.tl</a>
+                            <br>Le Chai - 22, rue Grande - 23220 BONNAT - Tél. : 05 44 30 07 66 - Adresse mail : <a
+                                href="mailto">lechai23@orange.fr</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Nouvel arrivant ou futur habitant ? Un réseau de référents accueil est là pour faciliter votre
+                        installation et votre intégration !
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><strong>Parce qu’un déménagement amène beaucoup de questions sur son nouveau/futur
+                                territoire, il est essentiel d’y trouver les réponses en retour :</strong>
+                            <br>- c’est ici qu’intervient le réseau des référents accueil !
+                            <br><br><strong>Les référents accueil, ce sont des élus, des habitants, des acteurs de la
+                                vie locale qui
+                                se mobilisent pour répondre au mieux à vos questions et faciliter votre installation en
+                                proximité tout comme votre intégration :</strong>
+                            <br>- mise en relation, infos utiles (services, loisirs, garde d’enfants, écoles, réseaux
+                            locaux…), actions d’accueil, rencontre des habitants, etc.
+                            <br>25 communes du territoire de projet se sont engagées dans cette démarche pour vous
+                            apporter un accueil de qualité !
+                            <br>Ajain, Anzême, Bonnat, Bussière-Dunoise, Champsanglard, Châtelus-Malvaleix, Genouillac,
+                            Glénic, Guéret, La Cellette, La Saunière, Lourdoueix-Saint-Pierre, Méasnes, Moutier-Malcard,
+                            Nouziers, Roches, Peyrabout, Saint-Dizier-les-Domaines, Saint-Fiel, Saint-Silvain-Montaigut,
+                            Saint-Sulpice-le-Guérétois, Saint-Vaury, Sainte-Feyre, Savennes.
+                            <br>Alors, n’hésitez pas à les solliciter en vous rapprochant de votre mairie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        COMMUNES MEMBRES
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p><strong>Retrouvez ci-dessous la carte des communes de la Communauté d'Agglomération du Grand
+                                Guéret.</strong></p>
+                        <img src="../img/cartecouleur.png" class="carteinterractive">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!---------------------------------------------------------------------------------FIN ACCORDEON---------------------------------------------------------------------------->
+            <div id="transports">
+                <h2 class="titre" id="pad">AGGLO'BUS GRAND GUÉRET MOBILITÉ</h2>
+            </div>
+            <!---------------------------------------------------------------------------------DEBUT CARD BUS---------------------------------------------------------------------------->
+
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Le réseau agglo’Bus est organisé autour de 4 services majeurs :</h5>
+                    <p class="card-text">- 7 lignes régulières urbaines dans Guéret,
+                        <br>- 4 secteurs desservis par des navettes sur le Grand Guéret en Transport à la demande Tad
+                        ouvert à
+                        tous,
+                        <br>- des services scolaires,
+                        <br>- un espace dédié à vos déplacements : l’Espace Mobilité.
+                        <br>Le réseau de transports publics de la Communauté d’Agglomération du Grand Guéret dessert les
+                        25
+                        communes du territoire et permet ainsi aujourd'hui :
+
+                        <br>- de rejoindre directement Guéret depuis les communes rurales,
+                        <br>- de rejoindre les EHPAD*, établissements de santé et pôles de services du Grand Guéret
+                        depuis les
+                        communes rurales ou depuis Guéret,
+                        <br>- de rejoindre les pôles de services** depuis les communes rurales,
+                        <br>- de faciliter l’accès au centre-ville de Guéret en proposant un mode alternatif à la
+                        voiture et
+                        d’en rendre plus accessibles les services (équipements, services publics, services de soins,
+                        commerces,
+                        établissements scolaires...).
+                    </p>
+                    <p class="card-text"><small class="text-muted">* EHPAD : Établissement d’Hébergement pour Personnes
+                            Âgées
+                            Dépendantes
+                            <br>** Pôles de services : Mairie, commerces, restaurants...</small></p>
+                </div>
+                <img src="../img/bus.png" class="card-img-bottom bus" alt="...">
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------FIN CARD BUS---------------------------------------------------------------------------->
+
+        <!-----------------------------------------------------------------------------DEBUT CARD PETITE ENFANCE---------------------------------------------------------------------------->
+        <div id="enfance">
+            <h2 class="titre" id="pad">LES MODES DE GARDE ET STRUCTURES DU GRAND GUÉRET</h2>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Petite enfance</h5>
+                <p class="card-text">Pour les enfants, différents modes de garde sont proposés sur le territoire de la
+                    Communauté d'Agglomération du Grand Guéret : le multi-accueil (collectif ou familial), la
+                    micro-crèche et les assistant(e)s maternel(le)s agréé(e)s par le Conseil Départemental de la Creuse.
+                </p>
+                <p class="card text-center"><small class="text-muted"><strong>Contacts utiles :
+                        </strong><br>Coordonnatrice Petite Enfance
+                        <br>05.55.41.04.48
+                        <br>petite.enfance@agglo-grandgueret.fr
+                        <br><br><strong>Lien utile :</strong>
+                        <br><a href="https://www.facebook.com/rpegrandgueret" target="_blank">Relais Petite Enfance du
+                            Grand Guéret</a>
+                    </small></p>
+            </div>
+            <img src="../img/maternelle.png" class="card-img-bottom" alt="...">
+        </div>
+
+        <!------------------------------------------------------------------------------FIN CARD PETITE ENFANCE---------------------------------------------------------------------------->
+
+        <!-------------------------------------------------------------------------------DEBUT CARD EMPLOIS---------------------------------------------------------------------------->
+        <div id="emplois">
+            <h2 class="titre" id="pad">OFFRES D'EMPLOI</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 emplois">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/paysagiste.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Agent d'entretien paysager et petite maintenance (contrat à durée
+                            déterminée)
+                        </h5>
+                        <p class="card-text "><strong>Recherche :</strong>
+                            <br><br>Un(e) agent d'entretien paysager et petite maintenance
+                        </p>
+                        <a href="https://www.hellowork.com/fr-fr/emplois/24262638.html" target="_blank"
+                            class="btn btn-primary">Voir le profil ...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/educateur.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Educateurs (h/f) de Jeunes Enfants
+                        </h5>
+                        <p class="card-text"><strong>Recherche :</strong>
+                            <br><br>Educateurs (h/f) de Jeunes Enfants
+                            <br>Diplôme d'Etat d'Educateur de Jeunes Enfants exigé soit 1 poste basé au Multi-accueil
+                            collectif de Guéret + 1 poste au Multi-accueil collectif de Saint-Vaury
+                        </p>
+                        <a href="https://www.hellowork.com/fr-fr/emplois/21997127.html" target="_blank"
+                            class="btn btn-primary">Voir le profil ...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/auxiliaire.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Auxiliaire de puériculture pour remplacement
+                        </h5>
+                        <p class="card-text"><strong>Recherche :</strong>
+                            <br><br>Auxiliaire de puériculture (h/f)
+                            <br>Pour assurer le remplacement d'un agent momentanément indisponible
+                            <br>Poste basé au Multi-accueil de Guéret
+                            <br>CDD pour une durée de 3 mois à compter du 1er septembre
+                        </p>
+                        <a href="https://www.hellowork.com/fr-fr/emplois/25719929.html" target="_blank"
+                            class="btn btn-primary">Voir le profil ...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------------------------------------------FIN CARD EMPLOIS---------------------------------------------------------------------------->
+
+    </div>
+    <!---------------------------------------------------------------------------------FIN CONTENU---------------------------------------------------------------------------->
+
+
+
+    <!---------------------------------------------------------------------------------DEBUT FOOTER---------------------------------------------------------------------------->
+    <footer class="footer">
+        <h1>Grand Guéret</h1>
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-div">
+                    <h4>À PROPOS</h4>
+                    <ul class="liste-propos">
+                        <li><a href="https://www.agglo-grandgueret.fr/sites/default/files/galeries_photos/carte_sports_nature_2018_vectorisee.jpg?itok=wx7Hg57L"
+                                target="_blank">Plan
+                                de la ville</a></li>
+                        <li><a href="#"> 9, avenue Charles de Gaulle</a></li>
+                        <li><a href="#"> BP 302</a></li>
+                        <li><a href="#">23006 Guéret Cedex</a></li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <h4>CONTACT</h4>
+                    <ul class="liste-contact">
+                        <li><a href="mailto:direction.generale@agglo-grandgueret.fr"
+                                target="_blank">direction.generale@agglo-grandgueret.fr</a></li>
+                        <li><a href="tel : (33)(05 55 41 04 48)">05 55 41 04 48</a></li>
+                        <!--numéro cliquable sur smartphone-->
+                        <li><a href="tel : (33)(05 55 41 13 01)">05 55 41 13 01</a></li>
+                        <!--numéro cliquable sur smartphone-->
+                    </ul>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <h4>+ DE RÉSEAUX</h4>
+                    <div class="logos-medias">
+                        <a href="https://www.facebook.com/grandgueret" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/GrandGueret" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.pinterest.fr/grandgueret/" target="_blank"><i
+                                class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://www.youtube.com/channel/UCMvxtn6h_Elg9slOkhujrVw" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-div">
+                    <h4>EN SAVOIR PLUS</h4>
+                    <ul class="liste-plus">
+                        <li><a href="https://www.agglo-grandgueret.fr/presse" target="_blank">Espace presse</a></li>
+                        <li><a href="https://www.agglo-grandgueret.fr/mentions-legales" target="_blank">Mentions
+                                légales</a></li>
+                        <li><a href="https://www.agglo-grandgueret.fr/politique-de-confidentialite"
+                                target="_blank">Paramètrage de cookies</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------FIN FOOTER---------------------------------------------------------------------------->
+
+    </footer>
+    <script src="../JS/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

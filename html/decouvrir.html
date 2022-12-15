@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/decouvrir.css">
+    <link rel="stylesheet" href="../css/footerTest.css">
+    </script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Découvrir</title>
+</head>
+
+
+
+
+<header>
+    <!---------------------------------------------------------------------------------Début menu--------------------------------------------------------------------------------->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="../img/logo3.png">
+        </div>
+        <div class="toggle">
+            <i class="fa-solid fa-bars ouvrir"></i>
+            <i class="fa-regular fa-circle-xmark fermer"></i>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html"><button onclick="window.location.href='home.html';"
+                        class="btnMaison"><i class="fa-solid fa-house"></i></button></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="maville.html" role="button"
+                    aria-expanded="false">Ma ville</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="maville.html#politique">Politique de la ville</a></li>
+                    <li><a class="dropdown-item" href="maville.html#environnement">Environnement</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="decouvrir.html" role="button"
+                    aria-expanded="false">Découvrir</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="decouvrir.html#sport">Sports</a></li>
+                    <li><a class="dropdown-item" href="decouvrir.html#nature"> Nature</a></li>
+                    <li><a class="dropdown-item" href="decouvrir.html#culture"> Culture</a></li>
+                    <li><a class="dropdown-item" href="decouvrir.html#carte"> Carte Touristique</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="installer.html" role="button"
+                    aria-expanded="false">S'installer</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="installer.html#bienvenue">Bienvenue</a></li>
+                    <li><a class="dropdown-item" href="installer.html#transports"> Transports publics</a></li>
+                    <li><a class="dropdown-item" href="installer.html#enfance"> Petite Enfance</a></li>
+                    <li><a class="dropdown-item" href="installer.html#emplois">Offres d'emplois</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!---------------------------------------------------------------------------------Fin menu--------------------------------------------------------------------------------->
+
+    <!---------------------------------------------------------------------------------Début Image haut du site--------------------------------------------------------------------------------->
+    <div class="card bg-dark text-white">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/banner.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/accro.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/biblio.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!---------------------------------------------------------------------------------FIn Image haut du site---------------------------------------------------------------------------->
+</header>
+
+
+
+<body>
+
+    <!---------------------------------------------------------------------------------Début contenu---------------------------------------------------------------------------->
+    <div id="contenu">
+        <h2>DECOUVREZ VOTRE COMMUNE</h2>
+
+        <!---------------------------------------------------------------------------------DEBUT SPORT contenu---------------------------------------------------------------------------->
+        <div id="sport">
+            <h3>Bienvenue dans notre Station Sports Nature !</h3>
+            <!-- <div class="banner">
+                --Banniere de la div---
+                <img src="../img/banner.jpg" alt="banner_sport">
+            </div> -->
+
+            <div class="sport1">
+                <!----div = 1 texte 1 image----->
+                <div class="s1gauche">
+                    <h4 id="titre">En route vers les JO</h4>
+                    <p>C’est grâce à une réflexion commune et à la désignation d’un porteur de projet unique, fédérateur
+                        d’un investissement partagé autour de « Guéret,
+                        centre de préparation aux Jeux Olympiques », que les équipes étrangères de cyclisme sur route et
+                        de VTT vont pouvoir venir s’entraîner dans les Monts de Guéret.
+                        En effet, la Communauté d'Agglomération, la Ville de Guéret, le Département, la Région, à l’Etat
+                        et Creuse Oxygène ont construit un projet commun d’accueil de délégations olympiques.
+                        Le 5 octobre dernier, Guéret est devenue officiellement centre de préparation aux Jeux
+                        Olympiques Paris 2024, symbole de cette dynamique commune impulsée au service du territoire.</p>
+                </div>
+                <div class="s1droite">
+
+                    <img src="../img/sport2.png" alt="sport1">
+
+                </div>
+            </div>
+
+            <div class="sport2">
+                <!----div = 1 image 1 texte----->
+                <div class="s2gauche">
+
+                    <img src="../img/sport1.png" alt="sport2">
+
+                </div>
+                <div class="s2droite">
+                    <h4 id="titre">Jeux Olympiques</h4>
+                    <p>Dans la roue de cette annonce, se profilent :
+                        la rénovation du centre d’hébergement IRFJS dédié aux sportifs, projet porté par la Ville de
+                        Guéret ;
+                        l’aménagement d’une piste VTT aux caractéristiques identiques à celles que les athlètes
+                        trouveront en 2024 à Saint-Quentin-en-Yvelines.
+                        Dans le cadre de sa compétence sports nature, l’Agglo est chargée d’assurer la maîtrise
+                        d’ouvrage, puis l’exploitation de la piste VTT.
+                        L’opération consiste à réaliser, sur le site d’accueil de la piste (parking Pierre La Grosle en
+                        forêt de Chabrières), son aménagement
+                        (stabilisation sur 1150 m) ainsi qu'un local technique dans une démarche éco-responsable
+                        (toilettes sèches, autonomes en énergie et eau).
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s</p>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------FIN SPORT contenu---------------------------------------------------------------------------->
+
+
+
+        <!---------------------------------------------------------------------------------DEBUT NATURE contenu---------------------------------------------------------------------------->
+
+        <div id="nature">
+            <h3>Nos espaces verts incroyables</h3>
+            <div class="banner">
+                <!----Banniere de la div----->
+                <img src="../img/accro.jpg" alt="tour_eiffel">
+            </div>
+
+            <div class="cards">
+                <!----grille de 2 colonnes et 3 lignes = textes + images----->
+                <div class="card" id="box1">
+                    <h4 id="titre">Les Monts de Guéret, un sacré caractère !</h4>
+                    <p>Est-ce dû à ses châteaux, gardiens de la mémoire du temps et de légendes jamais vraiment oubliées
+                        ?
+                        A sa nature omniprésente qui, entre eaux et forêts, impose son rythme ? Ou peut-être à ses
+                        habitants,
+                        descendants des premiers troubadours, qui vous accueillent avec le verbe occitant ? Nul n’a
+                        réellement percé le mystère.
+                        Mais un fait reste certain : venir chez nous, c’est toujours partir à l’aventure…</p>
+                </div>
+                <div class="card">
+                    <img src="../img/nature1.jpg" alt="tour_eiffel">
+                </div>
+
+
+                <div class="card">
+                    <img src="../img/nature2.jpg" alt="tour_eiffel">
+                </div>
+                <div class="card">
+                    <h4 id="titre">Les Monts de Guéret, territoire de nature</h4>
+                    <p>Le territoire des Monts de Guéret est un territoire de moyenne montagne (altitude moyenne 686 m)
+                        marqué par une forte ruralité (24 hab. /km² en moyenne). Situés au cœur de la France et du
+                        département de la Creuse,
+                        les Monts de Guéret s’insèrent dans un environnement protégé et proposent une offre touristique
+                        tournée vers la nature.</p>
+                </div>
+
+
+                <div class="card">
+                    <h4 id="titre">Toutes les routes mènent chez nous !</h4>
+                    <p>Que vous habitiez Paris, Lyon ou Amsterdam, qui vous souhaitiez vous mettre au vert durant 15
+                        jours ou un week-end,
+                        venir en famille dans les Monts de Guéret est vraiment très facile. De par sa situation
+                        géographique centrale,
+                        Guéret n’est jamais bien loin de chez vous !</p>
+                </div>
+                <div class="card">
+                    <img src="../img/nature3.jpg" alt="tour_eiffel">
+                </div>
+
+                <div class="card">
+                    <img src="../img/loups2.jpg" alt="tour_eiffel">
+                </div>
+                <div class="card">
+                    <h4 id="titre">Les Dents de la Creuse</h4>
+                    <p>« Loup, y-es-tu ? »… Bien sûr, vous connaissez cette comptine enfantine. Mais imaginez un instant
+                        que, chez nous, le conte devienne réalité.
+                        « Promenons-nous dans les bois, tant que le loup n’y est pas… ». Et si le loup y était bel et
+                        bien ? Et si le Petit Chaperon rouge, c’était vous…
+                        Peu de sites en France permettent d’observer des loups dans leur environnement naturel. Le Parc
+                        Animalier des Monts de Guéret est l’un d’eux !
+                        Au cœur d’une nature sauvage et sur un parcours ombragé ponctué de points d’observation
+                        stratégiques, vous aurez tout le temps de surprendre et
+                        d’observer cet animal sauvage et fascinant. Après cette rencontre inoubliable et pour vous
+                        remettre de vos émotions, un espace muséographique
+                        vous attend afin de mieux comprendre le comportement de cet animal, ainsi que les nombreuses
+                        légendes qui l’entourent.</p>
+                </div>
+
+                <div class="card">
+                    <h4 id="titre">Loups en fête</h4>
+                    <p>Chaque année, les loups se réunissent pour faire la fête ! A l’occasion de la Fête médiévale
+                        courant mai, venez découvrir les loups au temps du Moyen-Age (spectacles vivants, jonglerie,
+                        combats…).
+                        Les conteurs s’invitent durant la saison estivale dans l’enceinte du parc, à l’occasion du
+                        Festival « les Sortilèges de la Pleine Lune ».
+                        Le Père Noël fait une halte le premier week-end de décembre pour aller à la rencontre des
+                        enfants à l’occasion du marché de Noël.</p>
+                </div>
+                <div class="card">
+                    <img src="../img/loups1.jpg" alt="tour_eiffel">
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------FIN NATURE contenu---------------------------------------------------------------------------->
+
+
+
+        <!---------------------------------------------------------------------------------DEBUT CULTURE contenu---------------------------------------------------------------------------->
+
+        <div id="culture">
+            <h3>La culture se cultive ici</h3>
+            <div class="banner">
+                <!----Banniere de la div----->
+                <img src="../img/biblio.jpg" alt="tour_eiffel">
+            </div>
+
+            <div class="culture1">
+                <!----div = 1 image 1 texte----->
+                <div class="c1gauche">
+                    <h4 id="titre">BIBLIOTHÈQUE MULTIMÉDIA</h4>
+                    <p>Insérée au cœur d’un complexe culturel et sportif entre l’esplanade Nelson Mandela et la piscine
+                        municipale,
+                        la Bibliothèque Multimédia du Grand Guéret est le lieu privilégié de la lecture publique et de
+                        la culture partagées sur l’agglomération.
+                        Déployée sur 3 000m2 avec deux niveaux de lecture publique, le rez-de-chaussée et le 1er étage,
+                        elle met gratuitement à disposition de tous,
+                        une collection de plus de 135 000 documents dont prés de 81000 livres de lecture publique, 13600
+                        cd, et près de 8300 dvd et blu-ray ainsi
+                        que des journaux et revues… dans tous les grands domaines de la connaissance.
+                        Conçue aussi comme un lieu de rencontres et d’échanges culturels, elle accueille et produit des
+                        manifestations en lien avec le livre et
+                        la lecture (conférences/débats, lectures, spectacles, projections, expositions…).
+                        L’inscription donne la possibilité d’emprunter tous types de documents selon les modalités
+                        réglementaires.
+                        Pour vous inscrire, vous devez fournir une pièce d’identité et remplir une attestation sur
+                        l’honneur justifiant de votre domiciliation.
+                        Pour les mineurs, une autorisation doit être signée par le responsable légal. Une carte vous est
+                        délivrée que vous devez présenter à chaque
+                        emprunt. Vous, ou votre représentant légal, êtes personnellement responsable des documents
+                        empruntés.</p>
+                </div>
+                <div class="c1droite">
+
+                    <img src="../img/biblio1.jpg" alt="sport1">
+
+                </div>
+            </div>
+
+            <div class="culture2">
+                <!----div = 1 image 1 texte----->
+                <h4 id="titre">QUINCAILLERIE</h4>
+                <div class="c2gauche">
+
+                    
+                    <img src="../img/culture1.jpg">
+
+                </div>
+                <div class="c2droite">
+                    <p>Un lieu ouvert à tous, citoyens, structures, associations... Dans la roue de cette annonce, se
+                        profilent :
+                        la rénovation du centre d’hébergement IRFJS dédié aux sportifs, projet porté par la Ville de
+                        Guéret ;
+                        l’aménagement d’une piste VTT aux caractéristiques identiques à celles que les athlètes
+                        trouveront en 2024 à Saint-Quentin-en-Yvelines.
+                        Dans le cadre de sa compétence sports nature, l’Agglo est chargée d’assurer la maîtrise
+                        d’ouvrage, puis l’exploitation de la piste VTT.
+                        L’opération consiste à réaliser, sur le site d’accueil de la piste (parking Pierre La Grosle en
+                        forêt de Chabrières), son aménagement
+                        (stabilisation sur 1150 m) ainsi qu'un local technique dans une démarche éco-responsable
+                        (toilettes sèches, autonomes en énergie et eau).
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s</p>
+
+                    <h4 id="titre">Fédérer, développer, soutenir, dynamiser</h4>
+
+                    <p>Les objectifs de la Quincaillerie sont donc de : Favoriser et développer les usages pratiques des
+                        nouveaux outils de production numérique (imprimante 3D, scanner 3D, découpe laser, ploter vinyl,
+                        presse à chaud, machine à coudre numérique...) ;
+                        Fédérer autour de ces pratiques innovantes les acteurs locaux de l’éducation populaire, les
+                        médias associatifs et la population ;
+                        Développer un lieu unique de création collaborative ouvert à tous, mettant à disposition des
+                        compétences et du matériel en libre accès et/ou en prêt (câblothèque notamment) ;
+                        Mettre à disposition de la population et des nouveaux arrivants sur le territoire, un espace de
+                        coworking ; héberger de façon ponctuelle des start-up innovantes ; inviter les jeunes
+                        entreprises, comme les télétravailleurs, à déployer leurs activités dans un cadre convivial,
+                        collaboratif et dans le respect d’un choix de vie ;
+                        Croiser les médias associatifs locaux [Polymédia Local de Proximité] dans le but de leur
+                        apporter un soutien transversal et leur donner un accès diversifié au travers d’autres canaux de
+                        diffusion. Plus globalement, cela permet la mutualisation de moyens humains, techniques et
+                        technologiques.
+                        Enfin, un tel lieu a également pour ambition de proposer au centre-ville de Guéret un espace
+                        dynamique, transversal et intergénérationnel participant à la redynamisation de la cité.
+                        1 : La notion de FabLab désigne un lieu ouvert à tous où il est mis à disposition du public
+                        toutes sortes d'outils pour la conception et la réalisation d'objets, notamment des
+                        machines-outils pilotées par ordinateur.
+                        2 : Le coworking, travail coopératif ou encore cotravail, est un type d'organisation du travail
+                        qui regroupe deux notions : un espace de travail partagé, mais aussi un réseau de travailleurs
+                        encourageant l'échange et l'ouverture</p>
+
+                    <h4 id="titre">Mais, un Tiers-Lieux, c'est quoi ?</h4>
+
+                    <p>Même s’il n’existe pas de définition exacte, ce concept est né d'une approche sociologique de nos
+                        territoires ; le mouvement de " Tiers-lieux " se développe en France et dans le monde à grande
+                        vitesse.
+                        Ils sont destinés à être des espaces physiques ou virtuels de rencontres entre personnes et
+                        compétences variées qui n'ont pas forcément vocation à se croiser.
+                        Mot chapeau au 1er abord pour rassembler sous une même et grande famille les espaces de
+                        coworking, les FabLab, les HackerSpaces, les jardins partagés et autres habitats partagés ou
+                        entreprises ouvertes, le Tiers-Lieu (écrit avec des majuscules) est devenu une marque collective
+                        où l'on pense ces singularités nécessaires à condition qu'elles soient conçues et organisées
+                        dans un écosystème global ayant son propre langage pour ne plus être focalisées sur des lieux et
+                        des services d'infrastructure, mais vers l’émergence de projets collectifs permettant de
+                        co-créer et conserver de la valeur sur les territoires.</p>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------FIN CULTURE contenu---------------------------------------------------------------------------->
+
+
+
+        <!---------------------------------------------------------------------------------DEBUT CARTE contenu---------------------------------------------------------------------------->
+
+        <div id="carte">
+            <!----1 Image----->
+            <h4 id="titre">Carte Touristique</h4>
+
+            <div class="accordion" id="accordeon">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#partie1" aria-expanded="true" aria-controls="partie1">
+                            LE QUARTIER ALBATROS
+                        </button>
+                    </h2>
+                    <div id="partie1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                        data-bs-parent="#accordeon">
+                        <div class="accordion-body">
+                            <img src="../img/cartegueret.png" class="rounded mx-auto d-block imagecarte">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------FIN CARTE contenu---------------------------------------------------------------------------->
+
+        <!---------------------------------------------------------------------------------FIn contenu---------------------------------------------------------------------------->
+
+</body>
+        <!---------------------------------------------------------------------------------Début footer---------------------------------------------------------------------------->
+        <footer class="footer">
+            <!-- <h4>Communauté d'Agglomération du</h4> -->
+            <h1>Grand Guéret</h1>
+            <div class="container-footer">
+                <div class="row">
+                    <div class="footer-div">
+                        <h4>À PROPOS</h4>
+                        <ul class="liste-propos">
+                            <li><a href="https://www.agglo-grandgueret.fr/sites/default/files/galeries_photos/carte_sports_nature_2018_vectorisee.jpg?itok=wx7Hg57L"
+                                    target="_blank">Plan
+                                    de la ville</a></li>
+                            <li><a href="#"> 9, avenue Charles de Gaulle</a></li>
+                            <li><a href="#"> BP 302</a></li>
+                            <li><a href="#">23006 Guéret Cedex</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-div">
+                        <h4>CONTACT</h4>
+                        <ul class="liste-contact">
+                            <li><a href="mailto:direction.generale@agglo-grandgueret.fr"
+                                    target="_blank">direction.generale@agglo-grandgueret.fr</a></li>
+                            <li><a href="tel : (33)(05 55 41 04 48)">05 55 41 04 48</a></li>
+                            <!--numéro cliquable sur smartphone-->
+                            <li><a href="tel : (33)(05 55 41 13 01)">05 55 41 13 01</a></li>
+                            <!--numéro cliquable sur smartphone-->
+                        </ul>
+                        </ul>
+                    </div>
+                    <div class="footer-div">
+                        <h4>+ DE RÉSEAUX</h4>
+                        <div class="logos-medias">
+                            <a href="https://www.facebook.com/grandgueret" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/GrandGueret" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.pinterest.fr/grandgueret/" target="_blank"><i
+                                    class="fa-brands fa-pinterest"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMvxtn6h_Elg9slOkhujrVw" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-div">
+                        <h4>EN SAVOIR PLUS</h4>
+                        <ul class="liste-plus">
+                            <li><a href="https://www.agglo-grandgueret.fr/presse" target="_blank">Espace presse</a></li>
+                            <li><a href="https://www.agglo-grandgueret.fr/mentions-legales" target="_blank">Mentions
+                                    légales</a></li>
+                            <li><a href="https://www.agglo-grandgueret.fr/politique-de-confidentialite"
+                                    target="_blank">Paramètrage de cookies</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!---------------------------------------------------------------------------------FIn footer---------------------------------------------------------------------------->
+
+        </footer>
+        <script src="../JS/app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+
+
+
+</html>

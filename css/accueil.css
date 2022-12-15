@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lora&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Abyssinica SIL', serif;   <-- TEXTE SOUS MENU
+font-family: 'Alkalami', serif;             <-- MENU ET PIED DE PAGE
+font-family: 'Lora', serif;                 <-- SOUS TITRE
+font-family: 'Playfair Display', serif;      <-- TITRE                  */
+/* font-family: 'Poppins', sans-serif;       <-- TEXTE                          */
+
+
+/*div principale début */
+.container {
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+
+}
+
+/*principale fin */
+
+
+.row h5 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: #487570;
+    margin-top: 2%;
+}
+
+.row .b {
+    background-color: #F0F0F0;
+}
+
+.row p {
+    /*Fond du texte*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.row a {
+    text-decoration: none;
+    color: #487570;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+
+.row h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #344D59;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
